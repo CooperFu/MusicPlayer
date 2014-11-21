@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/PlayControlPanel"
+    android:layout_width="match_parent"
+    android:layout_height="50.0dip"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:background="@drawable/img_playback_bg"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/rl_play_mode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <ImageButton
+            android:id="@+id/btn_play_mode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/xml_playback_btn_press" />
+
+        <ImageView
+            android:id="@+id/iv_play_mode"
+            android:layout_width="36.0dip"
+            android:layout_height="25.0dip"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_playmode_repeat" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutPrev"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <ImageButton
+            android:id="@+id/btn_prev"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/xml_playback_btn_press" />
+
+        <ImageView
+            android:id="@+id/iv_prev"
+            android:layout_width="30.0dip"
+            android:layout_height="21.0dip"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_playback_bt_last" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutPlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <ImageButton
+            android:id="@+id/btn_play"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/xml_playback_btn_press" />
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="30.0dip"
+            android:layout_height="21.0dip"
+            android:layout_centerInParent="true"
+            android:layout_weight="1.0"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_playback_bt_play" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutNext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/xml_playback_btn_press" />
+
+        <ImageView
+            android:id="@+id/iv_next"
+            android:layout_width="30.0dip"
+            android:layout_height="21.0dip"
+            android:layout_centerInParent="true"
+            android:layout_weight="1.0"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_playback_bt_next" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <ImageButton
+            android:id="@+id/btn_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/xml_playback_btn_press" />
+
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="30.0dip"
+            android:layout_height="21.0dip"
+            android:layout_centerInParent="true"
+            android:layout_weight="1.0"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_buttom_bt_menu" />
+    </RelativeLayout>
+
+</LinearLayout>
